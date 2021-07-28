@@ -2,11 +2,11 @@ body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
-h1{
+.welcome-part h1{
     font-size: xx-large;
     color: #575757; 
 }
-h2{
+.about-part h2{
     color: gray;
 }
 .welcome-text{
@@ -32,7 +32,7 @@ h2{
 .link-button{
     margin-top: 10%;
     text-decoration: none;
-    background-image: linear-gradient(orange, tomato);
+    background-image: linear-gradient(orange,red, tomato);
     padding: 8px 20px;
     border-radius: 20px;
     color: #FFFFFF;
@@ -55,4 +55,44 @@ h2{
 }
 .about-text{
     margin: 10% 20%;
+}
+.my-recipes{
+    text-align: center;
+}
+.all-recipe{
+    display: flex;
+    margin: 0 10%;
+}
+.recipe-items{
+    width: 100%;
+    box-shadow:.5px .5px 15px 2px gray;
+    margin: 5%;
+    border-radius: 10px;
+    padding: 2%;
+    height: 390px;
+}
+.recipe-items img{
+    width: 95%;
+    padding: 2%;
+}
+.public-occurances{
+    height: 150px;
+    width: 70%;
+    margin: 5% 15%;
+    display: flex;
+    text-align: center;
+    box-shadow: .5px .5px 15px 2px gray;
+    border-radius: 5px;
+}
+.occurances{
+    padding: 0 90px ;
+}
+footer{
+    color: grey;
+    background-color: black;
+    text-align: center;
+    padding: 2%;
+}
+footer small{
+    color: white;
 }
