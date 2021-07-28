@@ -1,0 +1,39 @@
+body{
+
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: xx-large;
+    color: #575757;
+    
+}
+p{
+    color: gray;
+}
+.fancy-color{
+    color: tomato;
+}
+.welcome-part{
+    display: flex;
+    width: 80%;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+.half-width{
+    width: 100%;
+    padding: 2%;
+}
+.half-width img {
+    width: 100%;
+}
+.link-button{
+    margin-top: 10%;
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 8px 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+}
+.about-part{
+    display: flex;
+}
