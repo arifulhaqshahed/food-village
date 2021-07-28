@@ -100,3 +100,21 @@ footer{
 footer small{
     color: white;
 }
+
+/*optional work start*/
+.rating{
+    margin-top: 25px;
+    margin-right: 40px;
+    width: 300px;
+}
+.rating input{
+    display: none;
+}
+.rating label:before{
+    content: "\2605";
+    font-size: 25px;
+}
+.rating label:hover{
+    color: blue;
+}
+/*optional work end*/
