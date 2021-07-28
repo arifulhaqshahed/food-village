@@ -1,13 +1,15 @@
 body{
-
+    margin: 0;
     font-family: 'Poppins', sans-serif;
 }
 h1{
     font-size: xx-large;
-    color: #575757;
-    
+    color: #575757; 
 }
-p{
+h2{
+    color: gray;
+}
+.welcome-text{
     color: gray;
 }
 .fancy-color{
@@ -15,16 +17,17 @@ p{
 }
 .welcome-part{
     display: flex;
-    width: 80%;
+    width: 90%;
     margin-top: 60px;
-    margin-left: 60px;
+    margin-left: 5%;
 }
 .half-width{
-    width: 100%;
-    padding: 2%;
+    width: 90%;
+    padding: 5%;
 }
 .half-width img {
-    width: 100%;
+    margin-top: -40px;
+    width: 90%; 
 }
 .link-button{
     margin-top: 10%;
@@ -36,4 +39,20 @@ p{
 }
 .about-part{
     display: flex;
+    width: 100%;
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+    height: 500px;
+    margin-bottom: 80px;
+}
+.about-img{
+    width: 100%;
+}
+.about-part img{
+    width: 290px;
+    padding: 40px 0 0 200px;
+    margin-bottom: 0;
+}
+.about-text{
+    margin: 10% 20%;
 }
